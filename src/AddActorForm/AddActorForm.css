@@ -1,0 +1,36 @@
+.add-actor-form {
+	width: 80%;
+	margin: 50px 10%;
+}
+
+
+
+.text-input {
+	margin-bottom: 20px;
+}
+
+.text-input > label {
+	display: block;
+}
+
+
+
+.jumbotron p {
+	color:white;
+}
+
+.button-wrapper{
+	width: 100%;
+	text-align: center;
+}
+
+button{
+	font-size:30px;
+	margin:auto; 
+	border:1px solid #cc3333; 
+	background:#3cc3cc; 
+	color:#ddd; 
+	margin:20px;
+	border-radius: 25px;
+	padding:10px;
+}

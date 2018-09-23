@@ -1,0 +1,77 @@
+h1 {
+	margin:0;
+	  font-size: 40px;
+  text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+   color:#EE6043; 
+}
+
+h1:after{
+	content:" ★ ☆ ★";
+}
+
+.turn > div {
+/*	height: 400px;*/
+background-color:#eee;
+width:50%;
+}
+
+
+.col-4 ,.col-6 {
+	float:left;
+}
+
+.col-4.offset-1, .col-10{
+	text-align: center;
+}
+
+.turn {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+
+.jumbotron.col-10.offset-1 {
+background-image: url('/images/site/mountain.jpg');
+background-size: auto;
+background-position-y: -610px;
+min-height:150px;
+}
+
+.actorImage {
+	width:65%;
+	border:1px solid #ccc;
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.col-4.offset-1{
+}
+
+p{
+ clear:both;
+}
+
+
+.answer {
+	background-color: #F0F7Fd;
+	border:1px solid #D0E3F0;
+	margin: 20px;
+	padding: 15px 30px 15px 15px;
+	cursor: pointer;
+}
+
+.answer:hover {
+	background-color: #D0E3F0;
+}
