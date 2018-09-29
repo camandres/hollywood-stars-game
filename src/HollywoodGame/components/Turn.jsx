@@ -14,7 +14,7 @@ export const Turn = ({ actor, movies, answerStatus = 'none', onAnswerSelected })
 				{movies.map((title) => <Star title={title} key={title} onClick={onAnswerSelected} />)}
 			</div>
 		</div>
-	); 
+	);  
 }
 
 function getBackgroundColor(answerStatus) {

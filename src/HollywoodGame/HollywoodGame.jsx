@@ -30,7 +30,7 @@ const HollywoodGame = connect(mapStateToProps, mapDispatchToProps)(({
 	<Continue show={answerStatus === 'correct'} onContinue={onContinue}/>
 	<p>
 		<Link to="/add">Add an actor</Link>
-	</p>
+	</p> 
 	<Footer/>
 </div>);
  
