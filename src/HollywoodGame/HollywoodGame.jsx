@@ -33,5 +33,5 @@ const HollywoodGame = connect(mapStateToProps, mapDispatchToProps)(({
 	</p>
 	<Footer/>
 </div>);
-
+ 
 export default HollywoodGame;
