@@ -7,10 +7,10 @@ export const Turn = ({ actor, movies, answerStatus = 'none', onAnswerSelected })
 
 	return (
 		<div className="row turn" style={{ backgroundColor }}>
-			<div className="col-4 offset-1">
-				<img src={actor.imageUrl} alt="Actor" className="actorImage"/>
+			<div className="col-4 offset-1" style={{ backgroundColor }}>
+				<img src={actor.imageUrl} alt="Actor" className="actorImage" title={actor.name}/>
 			</div>
-			<div className="col-6">
+			<div className="col-6" style={{ backgroundColor }}>
 				{movies.map((title) => <Star title={title} key={title} onClick={onAnswerSelected} />)}
 			</div>
 		</div>

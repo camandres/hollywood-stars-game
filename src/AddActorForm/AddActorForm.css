@@ -12,8 +12,9 @@
 .text-input > label {
 	display: block;
 }
-
-
+.row.turn{
+	display:flex;
+}
 
 .jumbotron p {
 	color:white;
